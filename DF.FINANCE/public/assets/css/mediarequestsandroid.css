@@ -1,0 +1,245 @@
+/* медиазапрос для смартфонов фирмы Android */
+@media only screen and (max-width:360px) 
+{
+	html,body
+	{
+		margin-bottom:50px;
+		padding-bottom:50px;
+	}
+
+	#content
+	{
+		width:360px;
+	}
+	
+	.burgermenuportrait
+	{
+		display:block;
+		
+	}
+	
+	.header
+	{
+		width:360px;
+		height:300px;
+	}
+	
+	.header div
+	{
+		position:relative; 
+		top:30px; 
+		left:50px; 
+	}
+
+	.account
+	{
+		margin-top:25px;
+		margin-left:-20px;		
+	}
+	
+	.account div
+	{
+		left:350px;
+		top:-30px;
+	}
+	
+	#eth
+	{
+		top:50px; 
+		left:40px;
+	}		
+	
+	#notification
+	{
+		top:16px;
+		left:218px;
+	}
+	
+	img#exit
+	{
+		top:-20px; 
+		left:290px;
+	}	
+	
+	.mainmenu
+	{
+		transform:scale(1.2);
+		left:30px;
+		top:44px;
+		height:440px;
+	}
+	
+	#help
+	{
+		top:20px;
+		left:20px;
+	}
+	
+	#orderactions
+	{
+		left:20px;
+		top:-800px;
+		height:250px;
+	}
+	
+	#headerpage
+	{
+		left:10px;
+		top:100px;
+		width:360px;
+	}
+	
+	#headerpage img
+	{
+		top:45px;
+		left:25px;
+	}
+	
+	#headerpage div
+	{
+		font-size:30px;
+		width:300px;
+		top:-30px;
+		text-align:center;
+	}
+	
+	#step
+	{
+		left:122px;
+		top:210px;
+	}
+	
+	.twoparagraph div:nth-child(2)	
+	{
+		top:-12px;		
+	}
+	
+	.twoparagraph div#verticalline
+	{
+		top:7px;
+	}
+	
+	.treeparagraph div:nth-child(2)
+	{
+		display:inline-block;
+	}	
+	
+	form#openingacryptoloan
+	{
+		left:20px;
+		top:560px;
+		width:320px;
+		height:1060px;
+	}
+	
+	form#openingacryptoloan > div:nth-child(1)
+	{	
+		left:20px;
+		top:20px;
+		width:280px;
+	}	
+	
+	form#openingacryptoloan > input
+	{
+		width:280px;
+		margin-left:20px;
+		margin-top:30px;		
+	}	
+	
+	form#openingacryptoloan div:nth-child(3)
+	{
+		width:280px;
+		left:20px;
+		top:-20px;
+	}
+	
+	form#openingacryptoloan input#usdt
+	{
+		top:-40px;
+	}	
+	
+	form#openingacryptoloan > div:nth-child(5) /* максимально .... */
+	{
+		left:65px;
+		top:-80px;
+	}
+	
+	form#openingacryptoloan #risk
+	{
+		width:280px;
+		left:20px;
+	}
+	
+	form#openingacryptoloan > div:nth-child(6) 
+	{
+		top:-60px;
+		left:20px;
+		width:280px;
+	}
+	
+	form#openingacryptoloan #risk input
+	{
+		margin-left:0px;
+		margin-top:65px;
+		width:280px;
+	}
+
+	#riskdifferences
+	{
+		left:140px;
+	}
+		
+	form#openingacryptoloan #email
+	{
+		left:20px; 
+	}	
+	
+	form#openingacryptoloan #email input.email
+	{
+		width:280px;
+	}	
+		
+	#warning
+	{
+		width:280px;
+		left:20px;
+	}
+		
+	#warning div
+	{
+		width:200px;
+		height:70px;
+		left:70px;
+	}
+	
+	#warning img
+	{
+		position:relative;
+		top:17px;
+		left:17px;
+	}
+		
+	form#openingacryptoloan #buttonsgroup	
+	{
+		width:280px;
+		top:-80px;
+		left:20px;
+	}
+		
+	form#openingacryptoloan #buttonsgroup button#prev
+	{
+		width:280px;
+	}	
+	
+	form#openingacryptoloan #buttonsgroup button#next
+	{
+		width:280px;
+		margin-top:20px;
+	}	
+	
+	#footer
+	{
+		top:20px;
+		left:30px;
+	}	
+}

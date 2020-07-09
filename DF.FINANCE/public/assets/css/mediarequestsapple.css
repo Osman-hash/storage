@@ -1,0 +1,686 @@
+/* медиазапрос для смартфонов фирмы Apple */
+@media only screen and (max-width:320px) 
+{
+	html,body
+	{
+		margin-bottom:50px;
+		padding-bottom:50px;
+	}
+
+	.content
+	{
+		width:320px;
+		top:-50px;
+	}
+
+	#logo
+	{
+		margin-left:-15px;
+	}
+
+	.header
+	{
+		width:320px;
+		height:auto;
+	}
+			
+	.header > div:nth-child(2)
+	{
+		text-align:center;		
+		position:relative;
+		left:10px;
+	}
+	
+	.account
+	{
+		width:320px;
+	}
+	
+	.account img:first-child
+	{
+		margin-left:-10px;
+	}
+		
+	.account img:last-child
+	{
+		margin-left:-5px;
+	}	
+		
+	.account > div:nth-child(2)
+	{		
+		position:relative;
+		width:190px;		
+		left:345px;
+	}
+	
+	.account div:nth-child(3)
+	{
+		margin-left:-340px;	
+		width:190px;
+	}
+	
+	#eth
+	{
+		top:50px; 
+		margin-left:-15px;
+	}	
+	
+	#notification
+	{
+		margin-left:-20px;
+		top:15px;	
+	}
+	
+	img#exit
+	{
+		top:-20px; 
+		margin-left:-15px;
+	}
+	
+	#logo
+	{
+		left:38px; 
+		top:20px;
+	}
+
+	.mainmenu
+	{
+		max-height:400px;
+		margin-top:-4px;
+		display:none;
+	}
+		
+	#creatingpledge
+	{
+		width:290px;
+		transform:scale(0.9);
+		position:relative;
+		left:-15px;
+		top:-5px;	
+	}
+	
+	.active
+	{
+		max-width:272px;
+	}
+	
+	#foreclosure
+	{
+		width:296px;
+		transform:scale(0.9);
+		position:relative;
+		left:-15px;
+		top:-15px;
+	}
+	
+	#investment
+	{
+		width:296px;
+		transform:scale(0.9);
+		left:-15px;
+		top:-25px;
+	}
+	
+	#help
+	{
+		transform: scale(0.9);
+		margin-top:-37px;
+		margin-left:-17px;
+	}
+		
+	#headerpage
+	{
+		width:320px;
+		height:55px;
+		left:-5px;
+		top:20px;
+	}
+	
+	#headerpage div
+	{
+		font-size:24px;
+		left:35px;
+		width:280px;		
+	}	
+	
+	#headerpage img
+	{
+		position:relative; 
+		top:15px;
+		left:5px;
+	}	
+
+	#step
+	{
+		width:320px;
+		top:20px;
+		text-align:center;
+		margin-left:-122px;
+	}
+	
+	#orderactions
+	{
+		margin-left:-7px;
+		margin-top:-210px;
+		width:300px;
+		height:250px;		
+		transform:scale(0.9);
+	}
+		
+	.twoparagraph > div#verticalline
+	{	
+		top:5px; 
+		left:16px; 
+	}
+		
+	.twoparagraph div:nth-child(2)
+	{
+		top:-26px;
+	}		
+		
+	form#openingacryptoloan
+	{
+		max-width:280px;
+		margin-left:0px;
+		top:350px;
+		padding-bottom:200px;
+		min-height:1080px;
+	}
+	
+	form#openingacryptoloan > div:nth-child(1)
+	{
+		top:20px;
+		left:20px;
+		max-width:240px;
+	}
+	
+	form#openingacryptoloan input#ethereum
+	{
+		width:240px;
+		margin-left:20px;
+		margin-top:25px;
+	}
+	
+	form#openingacryptoloan > div:nth-child(3)
+	{
+		width:240px;
+		left:20px;
+	}
+	
+	form#openingacryptoloan input#usdt
+	{
+		width:240px;
+		margin-left:20px;
+	}	
+	
+	form#openingacryptoloan > div:nth-child(5)
+	{
+		margin-left:-45px;
+	}
+	
+	form#openingacryptoloan #risk
+	{
+		width:240px;
+		position:relative;
+		top:-115px;
+		left:20px;	
+	}
+	
+	form#openingacryptoloan > div:nth-child(6)
+	{
+		left:20px;
+		max-width:240px;
+	}
+	
+	form#openingacryptoloan #risk input
+	{
+		margin-left:0px;
+		max-width:240px;
+	}	
+	
+	#riskdifferences
+	{
+		margin-left:-40px;		
+	}
+	
+	form#openingacryptoloan #email
+	{
+		width:240px;
+		position:relative;
+		left:20px;
+	}
+	
+	form#openingacryptoloan #email input.email
+	{
+		max-width:240px;
+	}
+				
+	#warning
+	{
+		max-width:240px;
+		height:100px;
+		left:20px;
+		top:-140px;				
+	}
+
+	#warning img
+	{
+		width:60px;
+		height:auto;
+		position:relative;
+		margin-left:-15px;
+	}
+	
+	#warning div
+	{
+		max-width:170px;
+		height:auto;
+		top:-54px;
+		left:60px;
+	}	
+	
+	
+	form#openingacryptoloan #buttonsgroup
+	{
+		margin-top:-50px;
+		left:20px;
+		max-width:240px;
+	}	
+		
+	form#openingacryptoloan #buttonsgroup button#prev
+	{
+		max-width:240px;
+	}		
+		
+	form#openingacryptoloan #buttonsgroup button#next
+	{
+		max-width:240px;
+		position:relative;
+		top:0px;
+	}		
+	
+	#footer
+	{
+		top:20px;
+		margin-left:-20px;
+	}
+	
+	.burgermenuportrait
+	{
+		display:block;
+	}
+}
+
+@media only screen and (max-width:640px) 
+{
+	#content
+	{
+		width:640px;
+	}
+
+	.header
+	{
+		width:640px;
+		height:200px;
+	}
+	
+	.header div
+	{ 
+		position:relative; 
+		top:-30px; 
+		left:350px; 
+		font-weight:100;
+	}	
+	
+	#logo
+	{
+		position:relative; 
+		left:50px; 
+		top:20px;
+		width:250px;	
+	}	
+	
+	.account
+	{
+		margin-left:-300px;
+		margin-top:40px;
+	}
+	
+	.account > div:nth-child(2)
+	{
+		margin-left:-285px;
+	}
+	
+	#eth
+	{
+		top:-76px; 
+		left:355px;
+	}
+	
+	#notification	
+	{
+		top:-106px;
+		left:510px;
+	}
+	
+	img#exit
+	{
+		top:-140px;
+		left:570px;
+	}
+}
+
+@media only screen and (max-width:750px) 
+{
+
+}
+
+@media only screen and (max-width:1242px) 
+{
+
+}
+
+/* портетная ориентация смартфона с экраном 320 X 570 (ширина меньше высоты) Медиа-запрос составлен верно!!! */
+@media screen and (orientation:portrait) and (max-width:320px)
+{
+	.header
+	{
+		width:320px;
+	}
+	
+	.burgermenuportrait
+	{
+		top:300px;
+	}
+}
+
+/* ландшафтная ориентация смартфона с экраном 320 X 570 (ширина больше высоты). Медиа-запрос составлен верно!!! */
+@media screen and (orientation:landscape) and (max-width:570px)
+{
+	.content
+	{
+		top:-50px;
+	}
+
+	.header
+	{
+		width:570px;
+	}
+	
+	#logo
+	{
+		left:20px;
+	}
+	
+	.header > div:nth-child(2)
+	{
+		
+		top:-40px;
+		width:200px;
+		left:305px;
+	}
+	
+	img#exit
+	{
+		left:520px; 
+		top:-230px;
+	}
+	
+	.account
+	{
+		margin-top:15px;
+		margin-left:-325px;
+	}
+
+	.mainmenu
+	{
+		display:none;
+		width:570px;
+		height:200px;
+	}
+	
+	#creatingpledge
+	{
+		max-width:261px;
+		min-width:261px;
+	}
+	
+	#foreclosure
+	{
+		position:relative;
+		left:285px;
+		top:-100px;
+		width:285px;
+	}
+	
+	#investment
+	{
+		width:285px;
+		top:-100px;
+	}	
+	
+	#investment .circle
+	{
+		margin-left:-12px;
+	}
+	
+	#help
+	{
+		border-radius:0px;	
+		top:-200px;
+		left:285px;
+		width:285px;
+	}
+	
+	.active
+	{
+		max-width:285px;
+	}		
+	
+	.circle
+	{
+		left:230px;
+		top:-69px;
+	}
+	
+	.burgermenuportrait
+	{
+		display:none;
+		width:570px;
+		top:200px;	
+	}
+	
+	.burgermenulandscape
+	{
+		display:block;
+	}
+	
+	.burgermenuportrait img#pointer
+	{
+		left:268px;
+	}	
+	
+	.burgermenuportrait > div:nth-child(2)
+	{
+		width:260px;
+	}
+	
+	.burgermenuportrait > div:nth-child(2) #oneline
+	{
+		width:250px; 
+	}	
+	
+	.burgermenuportrait > div:nth-child(2) #twoline
+	{
+		width:240px;
+	}
+
+	.burgermenuportrait > div:nth-child(2) #threeline
+	{
+		width:250px;
+	}
+	
+	.burgermenuportrait > div:nth-child(3)
+	{
+		width:260px;
+		left:310px;	
+	}	
+	
+	.burgermenuportrait > div:nth-child(3) #oneline
+	{
+		width:250px; 
+	}		
+	
+	.burgermenuportrait > div:nth-child(3) #twoline
+	{
+		width:240px;
+	}
+
+	.burgermenuportrait > div:nth-child(3) #threeline
+	{
+		width:250px;
+	}
+
+	#headerpage
+	{
+		top:100px;
+		width:500px;
+		left:35px;
+	}
+	
+	#step
+	{
+		top:210px;
+		left:200px;
+	}
+	
+	#orderactions
+	{
+		left:105px;
+		top:-680px;
+	}	
+	
+	.twoparagraph > div#verticalline	
+	{
+		top:6px;
+	}	
+	
+	.twoparagraph div:nth-child(2)
+	{
+		top:-10px;
+	}		
+	
+	form#openingacryptoloan
+	{
+		max-width:360px;
+		margin-left:-295px;
+		top:570px;
+		padding-bottom:200px;
+		min-height:740px;
+		z-index:1;
+	}
+	
+	form#openingacryptoloan > input
+	{
+		width: 270px;
+	}
+
+	form#openingacryptoloan > div:nth-child(1)
+	{
+		width:270px;
+	}	
+	
+	form#openingacryptoloan > div:nth-child(5) /* максимально .... */
+	{ 
+		width:270px; 
+		position:relative; 
+		top:-90px; 
+		left:45px;	
+	}	
+		
+	form#openingacryptoloan > div:nth-child(6)
+	{
+		width:270px;
+	}	
+		
+	#riskdifferences
+	{
+		position:relative; 
+		top:-175px; 
+		left:275px; 
+		height:30px; 
+		width:160px;
+	}
+		
+	form#openingacryptoloan #risk
+	{
+		position:relative;
+		top:-115px;	
+	}
+
+	form#openingacryptoloan #risk img
+	{
+		left:285px; 
+	}
+	
+	form#openingacryptoloan #risk input
+	{
+		width: 270px;
+	}	
+	
+	#riskdifferences
+	{
+		left:155px; 
+	}	
+	
+	form#openingacryptoloan #email
+	{
+		width:270px;
+	}	
+	
+	form#openingacryptoloan #email input.email
+	{
+		width:270px;
+	}	
+	
+	#warning
+	{
+		width:270px;
+	}	
+	
+	#warning div
+	{
+		width:220px; 
+	}
+	
+	#warning img
+	{
+		width:40px;
+		position:relative;
+		top:10px;
+	}
+	
+	form#openingacryptoloan #buttonsgroup
+	{
+		width:270px;
+		top:-80px;
+	}
+	
+	form#openingacryptoloan #buttonsgroup button#prev
+	{
+		width:270px;
+	}	
+	
+	form#openingacryptoloan #buttonsgroup button#next
+	{
+		width:270px;
+		margin-top:20px;
+	}	
+
+	#footer
+	{
+		width:360px; 	
+		top:-30px;
+		left:105px;
+	}
+}
